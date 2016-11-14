@@ -27,4 +27,21 @@
      Welcome to Tomcat
   </description>
 
+
+
+  <servlet>
+    <!-- ?? -->
+    <servlet-name>computerSum</servlet-name>
+    <!-- ???? -->
+    <servlet-class>com.khalil.computerSum</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>computerSum</servlet-name>
+    <!-- ????? -->
+    <url-pattern>/computerSum</url-pattern>
+  </servlet-mapping>
+
+
+
+
 </web-app>
